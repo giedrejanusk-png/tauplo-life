@@ -12,6 +12,12 @@ It uses fictional currency and local game state only: no accounts, payments, bac
 - The wallet and savings totals update, and a short explanation describes the consequence.
 - **Reset** (top right) restarts the scenario. **Esc** closes the panel.
 
+## Play online
+
+The game is published automatically to **https://giedrejanusk-png.github.io/tauplo-life/** on every push to `main`. The workflow in `.github/workflows/deploy.yml` runs the tests, builds the game and deploys it.
+
+One-time setup: in the repository on GitHub, open **Settings → Pages** and set **Source** to **GitHub Actions**.
+
 ## Run it locally
 
 You need Node.js 20 or newer.
